@@ -1,0 +1,94 @@
+#circle1 {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(white, orange);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin-left: 700px;
+  margin-bottom: -80px;
+  z-index: 2;
+  position: absolute;
+}
+#circle2 {
+    width: 100px;
+  height: 100px;
+  background: radial-gradient(white, orange);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin-left: 500px;
+  margin-top: 350px;
+  position: absolute;
+}
+
+#tvbox {
+  width: 180px;
+  height: 200px;
+  background: silver;
+  border-style: inset;
+  border-width: 30px;
+  margin-left: 540px;
+  margin-top: 4px;
+  z-index: -1;
+  
+}
+
+#screen {
+  width: 178px;
+  height: 200px;
+  background: radial-gradient(grey,black);
+
+}
+
+#circle3 {
+   width: 200px;
+  height: 200px;
+  background: radial-gradient(silver, white);
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 150px;
+  margin-top: -100px;
+  margin-left: 350px;
+
+}
+
+#bottle {
+  width: 200px;
+  height: 100px;
+  transform: rotate(90deg);
+  border-radius: 50px;
+  background: white;
+  margin-left: 740px;
+  margin-top: -150px;
+  position: absolute;
+}
+
+#cork {
+  width: 100px;
+  height: 50px;
+  transform: rotate(180deg);
+  border-radius: 50px;
+  background: linear-gradient(brown,beige);
+  margin-left: 1px;
+  margin-top: -5px;
+  margin-bottom: 2px;
+  position: absolute;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

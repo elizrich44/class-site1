@@ -1,0 +1,64 @@
+
+<html>
+	<head> 
+		<title>Clock</title>
+		<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+		
+<style>
+
+#rectangle {
+	margin-top: 500px;
+	margin-left: 100px;
+	width: 800px;
+	height: 25px;
+	background: linear-gradient(to right, lightgrey 1%, black 50%, black 49%);
+	border-radius: 25px;
+	animation-name: burn;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	overflow-y: scroll;
+	animation-timing-function: ease-in-out;
+
+
+
+
+
+}
+
+/*#rectangle:hover {
+	animation-name: burn;
+	animation-duration: 50s;
+
+}*/
+
+@keyframes burn {
+
+	0% {background: linear-gradient(to right, grey, black, black, black, black, black);}
+
+	25% {background: linear-gradient(to right, red, grey, black, black, black, black);}
+
+	50% {background: linear-gradient(to right, red, red, grey, black, black, black);}
+
+	75% {background: linear-gradient(to right, red, red, red, grey, black, black);}
+	
+	100% {background: linear-gradient(to right, red, red, red, red, grey, black);}
+}
+/*
+{background: linear-gradient(90deg, lightgrey 1%, black 50%, black 49%);}
+	50% {background: linear-gradient(90deg, lightgrey 20%, darkgrey 40%, black 40%);}
+	100% {background: linear-gradient(90deg, lightgrey 40%, darkgrey 30%, white 30%);}
+}
+*/
+
+</style>
+</head>
+	<body style=" background-color: red;">
+	<div id="rectangle"></div>
+
+
+
+
+	</body>
+</html>
+<script type="text/javascript" src="clock.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
