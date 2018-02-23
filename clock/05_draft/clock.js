@@ -12,13 +12,13 @@ window.requestAnimFrame = function(){
 }();
 
 var canvas, ctx;
-var centerX = 450;
+var centerX = 200;
 var centerY = 300;
 
 function init() {
   canvas = document.createElement('canvas');
-  canvas.width = 600;
-  canvas.height = 600;
+  canvas.width = 900;
+  canvas.height = 900;
   ctx = canvas.getContext("2d");
   
   document.getElementById('container').appendChild(canvas);
