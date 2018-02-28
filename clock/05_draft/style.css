@@ -2,28 +2,7 @@
 body {
   background: black;
 }
-#ash1 {
-  position: fixed;
-  border: solid red 4px;
-  height: 697px;
-  width: 1270px;
-  margin-top: -23px;
-  /*z-index: 1;*/
-}
-#ash1:active {
-  animation: ash 10s infinite;
-}
-@keyframes ash {
-  0% {
-    color: black;
-  }
-  20% {
-    fill: white;
-  }
-}
-h1 {
-  color: white;
-}
+
 
 .flame{
   bottom:0;
@@ -107,13 +86,14 @@ h1 {
 }
 
 #ejemplo3 {
+  position: fixed;
   width: 120px;
   margin: 180px auto 0;
   height: 150px;
 }
 
 .espiral3 div, .espiral3 {
-  position: absolute;
+  position: fixed;
   right: -1em;
   top: -3px;
   width: 1em;
@@ -128,7 +108,7 @@ h1 {
 }
 .espiral3{
   font-size: 10px;
-  position: relative;
+  position: fixed;
   right: 0;
   animation: girar .93s linear;
   animation-timing-function: ease-in-out;
@@ -148,6 +128,7 @@ h1 {
     margin: 20px auto 0;
     color: white;
   }
+
 
 
 

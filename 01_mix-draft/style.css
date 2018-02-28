@@ -1,0 +1,274 @@
+/*@import url('https://fonts.googleapis.com/css?family=Permanent+Marker')*/
+
+
+body {
+	cursor: url(cursor1.png), auto;
+	
+}
+
+#tv {
+	z-index: -1;
+}
+#audio {
+	color: white;
+	z-index: 3;
+}
+#video {
+	object-fit: cover;
+	width: 500px;
+	margin-left: 320px;
+	margin-top: 0px;
+	z-index: 1;
+	position: fixed;
+	border-style: inset;
+	border-width: 70px;
+	border-color: silver;
+
+}
+#static {
+	object-fit: cover;
+	opacity: 1.6;
+	width: 450px;
+	margin-left: -23px;
+	margin-top: 51px;
+	z-index: 0;
+	position: absolute;
+	 animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;  
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+}
+
+#static:hover {
+	object-fit: cover;
+	opacity: 0;
+	width: 450px;
+	margin-left: -23px;
+	margin-top: 51px;
+	z-index: 0;
+	position: absolute;
+	animation: none;
+}
+
+#image1 {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 150px;
+	width: 200px;
+	z-index: 0;
+	border-radius: 25%;
+	transform: rotate(10deg) scale(1);
+	background-color: gold;
+}
+#image1:hover {
+	width: 250px;
+	filter: invert(0%);
+
+
+	
+}
+#image2 {
+	transition: all 0s linear;
+	filter: blur(2.5px);
+	border-radius: 100%;
+	transform: rotate(0deg) scale(2);
+	width: 115px;
+	z-index: 1;
+	margin-bottom: 150px;
+	margin-left: 50px;
+}
+
+#audio {
+	width: 100px;
+	margin-top: 500px;
+	margin-left: 300px;
+	position: fixed;
+	z-index: 2;
+}
+#image2:hover {
+	width: 150px;
+	z-index: 1;
+	margin-bottom: 150px;
+	margin-left: 50px;
+	filter: blur(0px);
+}
+#image3 {
+		width: 150px;
+	z-index: 1;
+	margin-bottom: 150px;
+	margin-left: 50px;
+	filter: blur(2.5px);
+	.element {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+}
+#image3:hover {
+	width: 200px;
+	z-index: 1;
+	margin-bottom: 150px;
+	margin-left: 50px;
+	filter: blur(0px);
+
+}
+
+#duck {
+	margin-bottom: -120px;
+
+}
+
+#ducky {
+	animation: slide 15s linear infinite;
+	border: inset 30px gold;
+	width: 298px;
+	height: 220px;
+}
+
+@keyframes slide {
+  0%{
+    transform: translate3d(0px, 0, 0);
+  }
+  50%{
+    transform: translate3d(950px, 0, 0);
+  }
+  100% {
+  	transform: translate3d(0px, 0, 0);
+  }
+}
+
+#credit {
+	color: white;
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 535px;
+	font-size: 15px;
+	z-index: 5;
+}
+
+#relate, #relate:visited {
+	color: white;
+	position: absolute;
+	margin-left: 490px;
+	margin-top: 355px;
+	z-index: 3;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30pt;
+	text-decoration: none;
+	animation: change 3s infinite;
+
+}
+#relate {
+	font-family: 'Permanent Marker', curisve;
+}
+
+@keyframes change {
+	0% {
+		color: white;
+	}
+	50% {
+		color: black;
+	}
+	100% {
+		color: gold;
+	}
+
+}
+
+#relate:hover {
+	color: red;
+}
+
+
+#d {
+	animation: rotate 5s infinite;
+	width: 220px;
+	margin-top: 150px;
+	position: fixed;
+	border-radius: 75%;
+	border: solid black 5px;
+}
+@keyframes rotate {
+	0% {
+		transform: rotate3d(0);
+	}
+	25% {
+		transform: rotate3d(1,1,1,45deg);
+	}
+	50% {
+		transform: rotate3d(2, -1, -1, -0.2turn);
+	}
+	100% {
+		transform: rotate3d(0, 1, 0.5, 3.142rad);
+	}
+}
+
+#hand {
+	width: 300px;
+	margin-left: 480px;
+	margin-top: 100px;
+	position: fixed;
+	z-index: 4;
+	animation: spinner 1s infinite ;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	-ms-perspective: 1200px;
+    
+}
+@keyframes spinner {
+	from { -webkit-transform: rotateY(0deg);}
+	to { -webkit-transform: rotateY(-360deg); }
+}
+
+#tom {
+	position: fixed;
+	animation: slidey 20s linear infinite;
+	width: 298px;
+	height: 220px;
+
+}
+
+@keyframes slidey {
+  0%{
+    transform: translate3d(0px, 0, 0);
+  }
+  50%{
+    transform: translate3d(470px, 0, 0);
+  }
+  100% {
+  	transform: translate3d(0px, 0, 0);
+  }
+}
+
+
+
+
+
+
+
+

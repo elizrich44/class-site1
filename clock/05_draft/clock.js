@@ -12,12 +12,12 @@ window.requestAnimFrame = function(){
 }();
 
 var canvas, ctx;
-var centerX = 200;
-var centerY = 300;
+var centerX = 220;
+var centerY = 320;
 
 function init() {
   canvas = document.createElement('canvas');
-  canvas.width = 900;
+  canvas.width = 1800;
   canvas.height = 900;
   ctx = canvas.getContext("2d");
   
@@ -54,12 +54,13 @@ function draw() {
     var x = centerX + Math.sin(toRadian(angle)) * (100 - i / 9.2);
     var y = centerY + Math.cos(toRadian(angle)) * (100 - i / 7.2);
     ctx.fillStyle = getColor(i);
-    ctx.fillRect(x, y, 4, 4);
+    ctx.fillRect(x, y, 6, 7);
   }
 }  
 
 init();
 animate();
+
 
 
 
