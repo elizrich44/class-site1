@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 
 body {
   background: black;
+}
+#scroll {
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  font-size: 34pt;
+  margin-top: 40px;
+
+}
+#scroll2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  font-size: 34pt;
+  margin-bottom: 80px;
+  position: absolute;
 }
 
 

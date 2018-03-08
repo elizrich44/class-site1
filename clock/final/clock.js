@@ -12,7 +12,7 @@ window.requestAnimFrame = function(){
 }();
 
 var canvas, ctx;
-var centerX = 220;
+var centerX = 208;
 var centerY = 320;
 
 function init() {
