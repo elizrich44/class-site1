@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="<https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.css>">
+	<script src="<https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.js>" async></script>
+	<title>ZHU GENERATIONWHY</title>
+</head>
+<body>
+<p class="one">SENTIMENTS</p> 
+<p class="two">SENSATIONS</p> 
+<p class="three">SEDUCTIONS</p> 
+
+	<select class="select" size="1" onchange="gotoPage(this)">
+		<option>MOOD?</option>
+		<option value="sentiments.html">SENTIMENTS</option>
+		<option value="sensations.html">SENSATIONS</option>
+		<option value="seductions.html">SEDUCTIONS</option>
+		<option value="all.html">ALL</option>
+	</select>
+
+	
+</body>
+</html>
+<script type="application/javascript">
+	const baguetteBox = require('baguettebox.js');
+	baguetteBox.run('.gallery');
+	
+</script>
