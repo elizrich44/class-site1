@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#homepage {
+  background-image: url(building.jpg);
+ background-repeat: no-repeat;
+ background-size: 1296px 700px;
+ z-index: 0;
+}
+
+#hall {
+  position: absolute;
+  width: 1280px;
+  z-index: -1;
+}
+
+.cover {
+  border: inset black 2px;
+  background-image: url("open.png");
+  background-size: contain;
+  width: 110px;
+  height: 140px;
+  margin: 70px auto;
+  margin-left: 582px;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes blink {
+  50% {border-color: black};
+}
+
+#intro {
+  color: white;
+  font-size: 35pt;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes blink {
+  50% {border-color: transparent};
+}
+
+.cover p {
+  text-align: center;
+  margin: 0;
+}
+
+.left_gate {
+  position: absolute;
+  background: black;
+  border: inset silver 5px;
+  bottom: 0; right: 50%; left: 0; top: 0;
+  
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  
+}
+.cover:hover .left_gate {
+  right: 100%; left: -50%;
+}
+
+.right_gate {
+  position: absolute;
+  background: black;
+  border: outset silver 5px;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  top: 0;
+  
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.cover:hover .right_gate {
+  left: 100%; right: -50%;
+}
+
+.slide_in {
+  overflow: hidden;
+}
+.slide_in .left_gate {
+  background: black;
+  border: inset silver 6px;
+}
+.slide_in .right_gate {
+  background: black;
+  border: inset silver 6px;
+}
+#select {
+  position: absolute;
+  z-index: 1;
+}
+#sex {
+  text-decoration: none;
+  position: absolute;
+  font-size: 20pt;
+  font-family: 'Cinzel', serif;
+  color: red;
+  margin-top: 150px;
+  margin-left: 15px;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-family: 'Cinzel', serif;
+}
+@keyframes blink {
+  50% {color: transparent};
+}
+
+#sex:hover {
+  font-size: 50pt;
+}
+
+#creature {
+  text-decoration: none;
+  position: absolute;
+  font-size: 20pt;
+  color: red;
+  margin-top: 150px;
+  margin-left: 180px;
+   animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-family: 'Cinzel', serif;
+}
+@keyframes blink {
+  50% {color: transparent};
+}
+#creature:hover {
+  font-size: 50pt;
+}
+#macabre {
+  text-decoration: none;
+  position: absolute;
+  font-size: 20pt;
+  color: red;
+  margin-top: 150px;
+  margin-left: 392px;
+   animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-family: 'Cinzel', serif;
+}
+@keyframes blink {
+  50% {color: transparent};
+}
+#macabre:hover {
+  font-size: 50pt;
+}
+#fantasy {
+  text-decoration: none;
+  position: absolute;
+  font-size: 20pt;
+  color: red;
+  margin-top: 150px;
+  margin-left: 573px;
+   animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-family: 'Cinzel', serif;
+}
+@keyframes blink {
+  50% {color: transparent};
+}
+#fantasy:hover {
+  font-size: 50pt;
+}
+
+#floor {
+  position: absolute;
+  width: 591%;
+  height: 100%;
+
+}
+#wall {
+  position: absolute;
+  width: 7500px;
+  height: 554px;
+  border: solid black 3px;
+  background: black;
+  z-index: 1;
+  overflow-x: scroll;
+}
+#frames {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+#frames1 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 800px;
+  margin-top: 70px;
+}
+#frames2 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 1500px;
+  margin-top: 70px;
+}
+#frames3 {
+  position: absolute;
+ border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 2200px;
+  margin-top: 70px;
+}
+#frames4 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 2900px;
+  margin-top: 70px;
+}
+#frames5 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 3600px;
+  margin-top: 70px;
+}
+#frames6 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 4300px;
+  margin-top: 70px;
+}
+#frames7 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 4970px;
+  margin-top: 70px;
+}
+#frames8 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 5640px;
+  margin-top: 70px;
+}
+#frames9 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 6320px;
+  margin-top: 70px;
+}
+#frames10 {
+  position: absolute;
+  border: inset silver 8px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  margin-left: 7006px;
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
