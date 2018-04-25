@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>10A-THE ONE</title>
+
+<body style="background-color: black;">  
+
+
+    
+    <audio id="myAudio" preload="auto" src="1oa.mp3"></audio> <div onclick="togglePlay()" id="music" 
+    style=" position: absolute;
+            border: solid blue 4px;
+            top: 50%;
+            left: 55%;
+            margin-top: -50px;
+            margin-left: -50px;
+  transform: translate(-50%, -50%);"><img src="volume.gif" id="play" style="  
+  width: 500px;
+    height: 500px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;"></div>
+    
+       <script>
+  var myAudio = document.getElementById("myAudio");
+  var isPlaying = false;
+
+  function togglePlay() {
+   if (isPlaying) {
+     myAudio.pause()
+   } else {
+     myAudio.play();
+   }
+  };
+  myAudio.onplaying = function() {
+   isPlaying = true;
+  };
+  myAudio.onpause = function() {
+   isPlaying = false;
+  };
+
+
+
+
+
+
+
+
+
+  </script>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#circle2 {
+    width: 400px;
+  height: 550px;
+  background: url(skin.jpg);
+  overflow: hidden;
+  -moz-border-radius: 80px;
+  -webkit-border-radius: 80px;
+  border-radius: 160px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+
+}
+
+#leaf1 {
+width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #00CC00;
+  position: fixed;
+   top: 9%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+
+}
+#leaf1:after {
+    width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #00CC00;
+  position: fixed;
+  content: "";
+  top: 30px;
+  left: -50px;
+
+}
+#juicy {
+  font-size: 140px;
+  color: gold;
+   position: fixed;
+  top: 68%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); 
+   animation: flash;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  font-family: 'Lobster', cursive;
+}
+
+@keyframes flash {
+  0% (color: yellow);
+  50% (color: green);
+  100% (color: yellow);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
