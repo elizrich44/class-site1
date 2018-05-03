@@ -1,24 +1,36 @@
 body {
-	background-color: red;
+  background-color: black;
 }
 
-#music {
+
+#pageone {
+    color: black;
   position: fixed;
-  border: solid red 3px;
-  top: 50%;
-  left: 50%;
-  margin: auto;
-  margin-top: -50px;
-  margin-left: -50px;
-  transform: translate(-50%, -50%);
+  /*border: outset silver 6px;*/
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+#music {
+            position: fixed;
+            border: solid blue 10px;
+            top: 50%;
+            left: 55%;
+            margin-top: -50px;
+            margin-left: -50px;
+            max-width: 500%;
+            max-height: 500%;
+            transform: translate(-50%, -50%);"
 }
 
 #play {
-	 width: 100px;
-    height: 100px;
-    background: red;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+            width: 500px;
+            height: 500px;
+            background: white;
+            border:none;
+               -moz-border-radius: 50px;
+               -webkit-border-radius: 50px;
+            border-radius: 50px;
 }
 

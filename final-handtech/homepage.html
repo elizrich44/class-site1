@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Mixa.1</title>
+
+
+</head>
+<body style="background-color:#202020;">
+
+<div data-role="page" id="pageone" style="background-color:#202020;">
+
+	<audio id="tyler" onended="this.play();" loop><source src="beats/drum1.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler2" onended="this.play();" loop><source src="beats/drum2.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler3" onended="this.play();" loop><source src="beats/drum3.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler4" onended="this.play();" loop><source src="beats/drum4.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler5" onended="this.play();" loop><source src="beats/jazzy.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler6" loop onended="this.play();" ><source src="beats/try.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler7" onended="this.play();" loop><source src="beats/layer1.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler8" onended="this.play();" loop><source src="beats/layer2.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler9" onended="this.play();" ><source src="beats/vocal1.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler10" onended="this.play();"><source src="beats/vocal2.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler11" onended="this.play();"><source src="beats/vocal3.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="tyler12" onended="this.play();"><source src="beats/vocal4.mp3" type="audio/mpeg">
+	</audio>
+
+
+	<span class="dot1" style="background-color: #202020"></span>
+
+	<span class="dot2" style="background-color: #202020;"></span>
+
+	<span class="dot3" style="background-color: #202020;"></span>
+
+	<span class="dot4" style="background-color: #202020;"></span>
+
+	<br>
+	<br>
+	<div id="line1"></div>
+	<br>
+	<br>
+
+	<span class="dot5" style="background-color: #202020;"></span>
+
+	<span class="dot6" style="background-color: #202020;"></span>
+
+	<span class="dot7" style="background-color: #202020;"></span>
+
+	<span class="dot8" style="background-color: #202020;"></span>
+
+	<br>
+	<br>
+	<br>
+	<div id="line1"></div>
+	<br>
+
+	<span class="dot9" style="background-color: #202020;"></span>
+
+	<span class="dot10" style="background-color: #202020;"></span>
+
+	<span class="dot11" style="background-color: #202020;"></span>
+
+	<span class="dot12" style="background-color: #202020;"></span>
+
+
+</div>
+
+   
+<script>
+
+	$(".dot1").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'red');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot2").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler2")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler2")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'red');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot3").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler3")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler3")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'red');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot4").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler4")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler4")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'red');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot5").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler5")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+
+		}else{
+			$("#tyler5")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'blue');
+
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot6").click(function(){
+
+		if($(this).hasClass("a")){
+			
+			$("#tyler6")[0].pause();
+			$(this).removeClass("a");
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+
+		}else{
+
+			console.log("a");
+
+			$("#tyler6")[0].play();
+			$(this).addClass("a");
+			$(this).css('background-color', 'blue');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot7").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler7")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler7")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'blue');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot8").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler8")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler8")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'blue');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot9").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler9")[0].pause();
+
+			$(this).removeClass("a");
+
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler9")[0].play();
+
+			$(this).addClass("a");
+
+
+			$(this).css('background-color', 'yellow');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+<script>
+
+	$(".dot10").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler10")[0].pause();
+
+			$(this).removeClass("a");
+
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler10")[0].play();
+
+			$(this).addClass("a");
+
+
+			$(this).css('background-color', 'yellow');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script>
+
+<script>
+
+	$(".dot11").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler11")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler11")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'yellow');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script>  
+
+<script>
+
+	$(".dot12").click(function(){
+
+		if($(this).hasClass("a")){
+			$("#tyler12")[0].pause();
+
+			$(this).removeClass("a");
+
+			$(this).css('background-color', '#202020');
+			$(this).css('animation', 'none');
+		}else{
+			$("#tyler12")[0].play();
+
+			$(this).addClass("a");
+
+			$(this).css('background-color', 'yellow');
+			$(this).css('animation', 'flash 4s infinite');
+		}
+	})
+	
+	</script> 
+
+
+
+
+	
+</body>
+</html>

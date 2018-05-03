@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="style.css">
       <title>10A-THE ONE</title>
 
-<body style="background-color: black;">  
+  
+
+    <body>  
+
+    <div data-role="page" id="pageone">
+
+       <audio id="myAudio" preload="auto" src="1oa.mp3"></audio> 
+
+       <div id="music" onclick="togglePlay()"></div>
+    
+    </div>
 
 
-    
-    <audio id="myAudio" preload="auto" src="1oa.mp3"></audio> <div onclick="togglePlay()" id="music" 
-    style=" position: fixed;
-            border: solid blue 4px;
-            top: 50%;
-            left: 55%;
-            margin-top: -50px;
-            margin-left: -50px;
-            max-width: 100%;
-            max-height: 100%;
-  transform: translate(-50%, -50%);"><img src="volume.gif" id="play" style="  
-  width: 500px;
-    height: 500px;
-    background: black;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;"></div>
-    
-       <script>
+
+
+  <script>
   var myAudio = document.getElementById("myAudio");
   var isPlaying = false;
 
@@ -43,16 +37,9 @@
    isPlaying = false;
   };
 
-
-
-
-
-
-
-
+   
 
   </script>
     
-</div>
 </body>
 </html>
