@@ -4,29 +4,68 @@
 	<meta charset="UTF-8">
 	<script src="scripts.js"></script>
 	<link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script>
+
+
 	<title>Catalog</title>
+
+
+    <script type="text/javascript">
+        
+            function changeText(text)
+            {
+                var display = document.getElementById('text-display');
+                display.innerHTML = "";
+                display.innerHTML = text;
+            }
+            
+            function defaultText()
+            {
+                var display = document.getElementById('text-display');
+                display.innerHTML = "";
+                display.innerHTML = "<span class='orig'></span>";
+            }
+        
+        </script>
+        
+
 </head>
 <body>
-<audio  loop ><source src="Shinobi.mp3" type="audio/mpeg"></audio>
-
+<audio autoplay controls loop ><source src="Shinobi.mp3" type="audio/mpeg"></audio>
+<h1>Elizabeth Richards</h1>
+<h3>Parsons School of Design</h1>
+<h3>PUCD Core Interaction 2018</h3>
 <div class="row">
   <div class="column">
-    <h2>Workshops</h2>
-    <img src="fish.png" id="img">
+    <h2>workshops</h2>
+    <a href=""><img src="calender.png"  id="img" alt="Calender Workshop" onmouseover="changeText('Calender Workshop(sasha portis-studio)')" onmouseout="defaultText()">></a>
+    <a href=""><img src="responsive.png" id="img" alt="Screen Responsive Workshop" onmouseover="changeText('Screen Responsive Workshop(sasha portis-studio)')" onmouseout="defaultText()">></a>
+    <a href="../final-mobile/index.html"><img src="plugin.png" id="img" alt="Plugin Workshop" onmouseover="changeText('Plugin Workshop(jon lucas-lab)')" onmouseout="defaultText()">></a>
+    <a href=""><img src="still.png" id="img" alt="Still Life Workshop" onmouseover="changeText('Still Life Workshop(sasha portis-studio)')" onmouseout="defaultText()">></a>
+    <a href="../fish-feelings/index.html"><img src="fish.png" id="img" alt="Word + Image Workshop" onmouseover="changeText('Word + Image Workshop(sasha portis-studio)')" onmouseout="defaultText()">></a>
+    <a href=""><img src="pixels.png" id="img" alt="Pixel Portrait Workshop" onmouseover="changeText('Pixel Portrait Workshop(sasha portis-studio)')" onmouseout="defaultText()">></a>
+    <a href="../me-final2/index.html"><img src="meme.png" id="img" alt="Self Workshop" onmouseover="changeText('Self Workshop(jon lucas-lab)')" onmouseout="defaultText()"></a>
   </div>
   <div class="column">
-    <h2>Projects</h2>
-    <img src="1.jpg" id="img">
-    <img src="2.png" id="img">
-    <img src="3.png" id="img">
-    <img src="linktree.png" id="img">
-    <img src="clock.png" id="img">
-    <img src="4.png" id="img">
-    <img src="met.png" id="img">
-    <video src="mobile.mov"  id="img" autoplay muted loop controls></video>
+    <h2>projects</h2>
+    <a href=""><img src="2.png" id="img" alt="ALL HTML: The All HTML project was an introductory exploration to basic HTML website production with focused usage of tags. I used this project as an opportunity to introduce myself. (jon lucas-lab)" onmouseover="changeText('ALL HTML: The All HTML project was an introductory exploration to basic HTML website production with focused usage of tags. I used this project as an opportunity to introduce myself.(jon lucas-lab)')" onmouseout="defaultText()"></a>
+
+    <a href=""><img src="1.jpg" id="img" alt="ALL HTML: The All HTML project was an introductory exploration to basic HTML website production with focused usage of tags. I used this project as an opportunity to introduce myself. (jon lucas-lab)" onmouseover="changeText('ALL HTML: The All HTML project was an introductory exploration to basic HTML website production with focused usage of tags. I used this project as an opportunity to introduce myself. (jon lucas-lab)')" onmouseout="defaultText()"></a>
+
+    <a href=""><img src="3.png" id="img" alt="ALL HTML: The All HTML project was an introductory exploration to basic HTML website production with focused usage of tags. I used this project as an opportunity to introduce myself. (jon lucas-lab)" onmouseover="changeText('ALL HTML: The All HTML project was an introductory exploration to basic HTML website production with focused usage of tags. I used this project as an opportunity to introduce myself. (jon lucas-lab)')" onmouseout="defaultText()"></a>
+
+    <a href=""><img src="linktree.png" id="img" alt="LINKING TREE: The Linking Tree project analyzed the idea of internet hyperlinking, where one page can lead to many more through the act of clicking. Become your own bartender with my Link to Drink website. (sasha portis-studio)" onmouseover="changeText('LINKING TREE: The Linking Tree project analyzed the idea of internet hyperlinking, where one page can lead to many more through the act of clicking. Become your own bartender with my Link to Drink website. (sasha portis-studio)')" onmouseout="defaultText()"></a>
+
+    <a href="../clock/final/index.html"><img src="clock.png" id="img" alt="CLOCK: The Clock project tested the boundaries of time and all that represents this idea. The Coil Clock is an abstract depiction of time based on historical Asian methods of time-keeping. (sasha portis-studio)" onmouseover="changeText('CLOCK: The Clock project tested the boundaries of time and all that represents this idea. The Coil Clock is an abstract depiction of time based on historical Asian methods of time-keeping. (sasha portis-studio)')" onmouseout="defaultText()"></a>
+
+    <a href="../01_mix-draft/index.html"><img src="4.png" id="img" alt="MIX: The Mix was a creative web design project intended to set visual aesthetic and mood to a song of personal choice. Through incorporation of gifs, videos, images and web animations, this website “FEELS SO GOOD”. (jon lucas-lab)" onmouseover="changeText('MIX: The Mix was a creative web design project intended to set visual aesthetic and mood to a song of personal choice. Through incorporation of gifs, videos, images and web animations, this website “FEELS SO GOOD”. (jon lucas-lab)')" onmouseout="defaultText()"></a>
+
+    <a href="../final-container-tech/index.html"><img src="met.png" id="img" alt="CONTAINER TECHNOLOGIES:The Container Technology project breaks down all the pieces within a personally chosen location in order to re-group those pieces as the result. Four filters redefine every container within the Metropolitan Museum in this website.(sasha portis-studio)" onmouseover="changeText('CONTAINER TECHNOLOGIES: The Container Technology project breaks down all the pieces within a personally chosen location in order to re-group those pieces as the result. Four filters redefine the containers within the Metropolitan Museum in this website. (sasha portis-studio)')" onmouseout="defaultText()"></a>
+
+    <a href="../final-handtech/index.html"><video src="mobile.mov"  id="img" autoplay muted loop controls alt="MOBIE: The Hand Technology project pushed the usage of jQuery and mobile friendly code to ultimately create an interactive mobile app while focusing on the idea of hands and their capabilities as extensions of our bodies. I created Mixa to allow users to produce tasteful beats through experimental interaction. (sasha portis-studio)" onmouseover="changeText('MOBILE: The Hand Technology project pushed the usage of jQuery and mobile friendly code to ultimately create an interactive mobile app while focusing on the idea of hands and their capabilities as extensions of our bodies. I created Mixa to allow users to produce tasteful beats through experimental interaction. (sasha portis-studio)')" onmouseout="defaultText()"></video></a>
 
   </div>
-</div>
+ </div>
 
 
 
@@ -36,7 +75,9 @@
 
 
 
-
+<div id="text-display">
+               
+    </div>
 
 
 

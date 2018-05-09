@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+body {
+  background-image: url(background.jpg);
+  overflow: scroll;
+}
+
+
+/*#purp {
+  width: 120%;
+  height: 940px;
+  background: url(purp.jpg);
+  opacity: 0.5;
+  margin-top: -250px; 
+  margin-left: -250px;
+  overflow: scroll;
+   z-index: 5;
+  position: absolute;
+}*/
+
+#purp:hover {
+  opacity: 0;
+}
+
+
+#robo {
+  width: 25%;
+  height: 1000px;
+  margin-top: 10px; 
+  margin-left: 400px;
+
+  
+}
+
+#robo2 {
+  width: 25%;
+  height: 1000px;
+  margin-top: 10px; 
+  margin-left: 400px;
+  
+}
+
+h1{
+  color: purple;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+.orig
+    { 
+      z-index: 1000;
+      position: fixed;
+      bottom: 32px;
+      font-weight: bold;
+      width: 45vw;
+      left: 50%;
+       -webkit-transform: translateX(-50%) ;
+      -moz-transform: translateX(-50%) ;
+      transform: translateX(-50%) ;     
+      font-size: 20px;
+      line-height: 95%;
+      font-family: arial;
+      text-align: center;
+      color: purple;
+      -webkit-text-stroke-width: 0.75px;
+   -webkit-text-stroke-color: white;
+    }
+
+
+#text-display
+    { 
+      z-index: 1000;
+      position: fixed;
+      bottom: 10px;
+      font-weight: regular;
+      width: 90vw;
+      left: 50%;
+       -webkit-transform: translateX(0%) ;
+      -moz-transform: translateX(-50%) ;
+      transform: translateX(-50%) ;     
+      font-size: 20px;
+      line-height: 74px;
+      font-family: 'Rajdhani', sans-serif;
+      text-align: center;
+      color: purple;
+      background-color: white;
+      -webkit-text-stroke-width: 1.3px;
+        -webkit-text-stroke-color: purple;
+         text-transform: lowercase;
+        color: 25px solid purple;}

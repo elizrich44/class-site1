@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="style.css">
+
+<body> 
+
+<div data-role="page" id="pageone" style="background-color: black;">
+
+ 		<audio id="myAudio" preload="auto" src="discotits.mp3" loop></audio> 
+
+       	<div id="audio" onclick="togglePlay()" 
+       		 style="  
+       		 	position: absolute;
+       			border: dotted blue 10px;
+  				top: 50%;
+  				left: 55%;
+  				margin-top: -50px;
+  				margin-left: -50px;
+  				max-width: 100%;
+  				max-height: 100%;
+  				transform: translate(-50%, -50%);
+  				z-index: 1;"
+       	><img src="volume.gif" id="gif" 
+       	style="
+       	  	width: 300px;
+            height: 300px;
+            border:none;
+               -moz-border-radius: 0px;
+               -webkit-border-radius: 0px;
+            border-radius: 0px;"
+
+       	></div>
+  
+      	</div>
+
+
+  <script>
+  var myAudio = document.getElementById("myAudio");
+  var isPlaying = false;
+
+  function togglePlay() {
+   if (isPlaying) {
+     myAudio.pause()
+   } else {
+     myAudio.play();
+   }
+  };
+  myAudio.onplaying = function() {
+   isPlaying = true;
+  };
+  myAudio.onpause = function() {
+   isPlaying = false;
+  };
+
+   </script>
+
+   <script>
+   	var gif = document.getElementById("gif");
+
+   	$(function(){
+   		$('.gif').click(function() {
+   			$(this).css('display', 'none');
+   			
+   		});
+   	});
+
+   </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

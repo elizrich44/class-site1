@@ -4,6 +4,7 @@
 
 body {
   background: black;
+  max-width: 100%;
 }
 
 #pageone {
@@ -51,9 +52,10 @@ body {
   height: 50px;
   width: 50px;
   border: solid red 11px;
-  margin-left: 1px;
+  margin-left: 500px;
   margin-top: 5%;
   position: relative;
+  align-content: center;
 
 }
 
@@ -129,7 +131,7 @@ height: 100px;
       -webkit-box-shadow: 0px 0px 4px #4195fc;
        -moz-box-shadow: 0px 0px 4px #4195fc;
             box-shadow: 0px 0px 4px #4195fc;
-  margin-left: 45px;
+  margin-left: 400px;
   margin-top: -10px;
   
 }
@@ -185,7 +187,7 @@ height: 100px;
   border: solid yellow 4px;
   border-radius: 50%;
   display: inline-block;
-  margin-left: 5%;
+  margin-left: 530px;
 }
 .dot10 {
   height: 60px;
@@ -212,12 +214,6 @@ height: 100px;
   display: inline-block;
 }
 
-#line1 {
-  height: 1px;
-  width: 600px;
-  border: solid black 1px;
-  background-color: black;
-}
 
 #button {
    background-color: red; /* Green */
@@ -232,13 +228,13 @@ height: 100px;
   top: 50%;
   left: 45%;
   margin-top: 175px;
-  margin-left: -105px;
+  margin-left: -50px;
 }
 
 p{
   color:#4CAF50;
   text-align: center;
-  margin-left: 40px;
+  margin-left: 500px;
   margin-bottom: 50px;
   font-size: 9pt;
   font-family: 'Poppins', sans-serif;
@@ -252,6 +248,7 @@ p{
 
 .welcome {
   margin-top: 12px;
+  text-align: center;
   color: white;
   font-size: 43pt;
   font-family: 'Fjalla One', sans-serif;
@@ -268,4 +265,273 @@ p{
   100% {color: blue;}
 }
 
+@media screen and (max-width: 1024px) {
 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+
+body {
+  background: black;
+  max-width: 100%;
+}
+
+#pageone {
+  color: black;
+  position: fixed;
+  /*border: outset silver 6px;*/
+  max-height: 100%;
+  max-width: 100%;
+
+}
+
+#melody {
+   animation: flash 4s infinite;
+  animation-name: flash;
+  height: 100px;
+  width: 100px;
+  border: solid blue 5px;
+      -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+  margin-left: 55px;
+  
+}
+#vocal {
+   animation: flash 2s infinite;
+  animation-name: flash;
+  height: 20px;
+  width: 20px;
+  border: solid yellow 2px;
+  margin-left: 55px;
+}
+#add {
+  height: 20px;
+  width: 20px;
+  border: dotted green 2px;
+  margin-left: 55px;
+}
+
+.dot1 {
+  background-color: black;
+  height: 100px;
+  width: 100px;  
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: solid red 11px;
+  margin-left: 500px;
+  margin-top: 5%;
+  position: relative;
+  align-content: center;
+
+}
+
+@keyframes flash {
+  0% {}
+  25% {}
+  50% {}
+  75% {border-color:silver;}
+  100% {}
+}
+.dot1:active {
+  border: dotted red 5px;
+  background-color: yellow;
+}
+
+
+.dot2 {
+height: 100px;
+  width: 100px;  
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: solid red 11px;
+  margin-left: 20px;
+  margin-top: 5%;
+  position: relative;
+}
+
+.dot2:active {
+  border: dotted red 5px;
+}
+.dot3 {
+  height: 100px;
+  width: 100px;  
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: solid red 11px;
+  margin-left: 20px;
+  margin-top: 5%;
+  position: relative;
+}
+.dot3:active {
+  border: dotted red 5px;
+}
+.dot4 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: solid red 2px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: solid red 11px;
+  margin-left: 20px;
+  margin-top: 5%;
+  position: relative;
+}
+.dot4:active {
+  border: dotted red 5px;
+}
+
+.dot5 {
+  height: 15px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: solid blue 5px;
+      -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+  margin-left: 400px;
+  margin-top: -10px;
+  
+}
+.dot5:active {
+  background-color: blue;
+}
+.dot6 {
+    height: 15px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: solid blue 5px;
+      -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+  margin-left: 45px;
+ 
+}
+.dot7 {
+  height: 15px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: solid blue 5px;
+      -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+  margin-left: 45px;
+ 
+}
+.dot8 {
+  height: 15px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: solid blue 5px;
+      -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+  margin-left: 45px;
+ }
+
+.dot9 {
+  height: 60px;
+  width: 70px;
+  background-color: black;
+  border: solid yellow 4px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 530px;
+}
+.dot10 {
+  height: 60px;
+  width: 70px;
+  background-color: black;
+  border: solid yellow 4px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot11 {
+  height: 60px;
+  width: 70px;
+  background-color: black;
+  border: solid yellow 4px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot12 {
+  height: 60px;
+  width: 70px;
+  background-color: black;
+  border: solid yellow 4px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+#button {
+   background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 82px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+     position: fixed;
+  top: 50%;
+  left: 45%;
+  margin-top: 175px;
+  margin-left: -50px;
+}
+
+p{
+  color:#4CAF50;
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  font-size: 9pt;
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+}
+
+#vibe {
+  color: silver ;
+  font-size: 11pt;
+
+}
+
+.welcome {
+  position: fixed;
+  margin-top: 12px;
+  text-align: center;
+  color: white;
+  font-size: 43pt;
+  font-family: 'Fjalla One', sans-serif;
+  animation: flasher 5s infinite;
+
+  
+}
+
+@keyframes flasher {
+  0% {color: blue;}
+  25% {color: white;}
+  50% {color: blue;}
+  75% {color:white;}
+  100% {color: blue;}
+}
