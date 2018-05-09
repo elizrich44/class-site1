@@ -6,9 +6,8 @@ body {
   padding: 0;
   max-width: 100%;
   background-image: url(statics.gif);
-  background-attachment: scroll;
-  background-repeat: repeat;
-  overflow: visible;
+  background-size: cover;
+
 }
 
 p {
@@ -39,15 +38,6 @@ p {
   max-width: 150px;
 
 }
-#image0 {
-position: absolute;
-margin-left: 530px;
-max-height: 30%;
-max-width: 30%;
-border-radius: 50%;
-opacity: 0.6;
-
-}
 
 #image {
 position: absolute;
@@ -60,19 +50,19 @@ opacity: 0.3;
 
 #image:hover {
   opacity: .75;
-  border: solid black 3px;
+  
 }
 #image2:hover {
   opacity: .75;
-  border: solid black 3px;
+  
 }
 #image3:hover {
   opacity: .75;
-  border: solid black 3px;
+  
 }
 #image4:hover {
   opacity: .75;
-  border: solid black 3px;
+  
 }
 
 

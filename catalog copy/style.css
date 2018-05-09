@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+
+/*body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-image: url(statics.gif);
+  background-size: cover;
+
+}*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(statics.gif);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.column {
+    flex: 50%;
+}
+
+#img {
+  max-width: 100%;
+  opacity: 0.3;
+}
+#img:hover {
+  opacity: 1.0;
+}
+
