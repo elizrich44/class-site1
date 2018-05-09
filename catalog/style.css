@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-image: url(statics.gif);
+  background-attachment: scroll;
+  background-repeat: repeat;
+  overflow: visible;
+}
+
+p {
+  position: relative;
+  color: silver;
+  top: 6px;
+  margin-top: 10px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#frame0 {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#frame {
+  margin-top: -500px;
+  margin-left: 30%;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#frame2 {
+ overflow: visible;
+  margin-top: -100px;
+  margin-left: 30%;
+  max-height: 150px;
+  max-width: 150px;
+
+}
+#image0 {
+position: absolute;
+margin-left: 530px;
+max-height: 30%;
+max-width: 30%;
+border-radius: 50%;
+opacity: 0.6;
+
+}
+
+#image {
+position: absolute;
+margin-top: 800px;
+max-height: 40%;
+max-width: 40%;
+opacity: 0.3;
+
+}
+
+#image:hover {
+  opacity: .75;
+  border: solid black 3px;
+}
+#image2:hover {
+  opacity: .75;
+  border: solid black 3px;
+}
+#image3:hover {
+  opacity: .75;
+  border: solid black 3px;
+}
+#image4:hover {
+  opacity: .75;
+  border: solid black 3px;
+}
+
+
+
+#image2 {
+overflow: visible;
+position: absolute;
+margin-top: 1200px;
+max-height: 40%;
+max-width: 40%;
+opacity: 1.0;
+opacity: 0.3;
+
+}
+
+#frame3 {
+ overflow: visible;
+  margin-top: -100px;
+  margin-left: 30%;
+  max-height: 150px;
+  max-width: 150px;
+
+}
+
+#image3 {
+overflow: visible;
+position: absolute;
+margin-top: 1570px;
+max-height: 40%;
+max-width: 40%;
+opacity: 0.3;
+
+
+}
+
+#frame4 {
+ overflow: visible;
+  margin-top: -100px;
+  margin-left: 30%;
+  max-height: 150px;
+  max-width: 150px;
+
+}
+
+#image4 {
+overflow: visible;
+position: absolute;
+margin-top: 1930px;
+max-height: 40%;
+max-width: 40%;
+opacity: 1.0;
+opacity: 0.3;
+
+}
+
+
+#workshops {
+  position: absolute;
+  color: silver;
+  position: center;
+  margin-top: 160px;
+  margin-left: 440px;
+ font-family: 'Rajdhani', sans-serif;
+}
+#workshops:hover {
+  color: red;
+}
+
+#projects {
+  position: absolute;
+  color: silver;
+  position: center;
+  margin-top: 160px;
+  margin-left: 740px;
+ font-family: 'Rajdhani', sans-serif;
+}
+#projects:hover {
+  color: red;
+}
+
+
+
+
